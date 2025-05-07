@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005f73;
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: url('assets/banner.jpg') center/cover no-repeat;
+    color: white;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: #0a9396;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .features, .about {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .features div {
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #001219;
+    color: white;
+  }
+  
