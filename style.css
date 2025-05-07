@@ -41,3 +41,41 @@ form input, form select, form button {
   margin-top: 1rem;
   padding: 0.5rem;
 }
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.course-card {
+  background: #f1f9ff;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 320px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h2 {
+  background-color: #155fa0;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.course-card h3 {
+  color: #155fa0;
+  margin-top: 1rem;
+}
+
+.course-card ul {
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.course-card p {
+  line-height: 1.4;
+}
